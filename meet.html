@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Meet</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/google-img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/google-img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/google-img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
     </style>
     <link rel="stylesheet" href="./assets/css/index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./tailwind.config.js"></script>
+
   </head>
 
   <body class="font-[Roboto] text-gray-500 h-[98vh]">
@@ -84,11 +90,50 @@
         </div>
       </div>
     </nav>
-    <section class="h-full w-full flex flex-row">
-        <div  class="flex-1 h-full w-full bg-[red] flex flex-col">
+    <section class="h-screen w-full flex flex-row ">
+        <div  class="flex-1 h-full w-full flex flex-col mx-12">
+          <div class="my-20">
+<h1 class=" text-5xl">Appel vidéo et visionconférences pour tous</h1><br>
+<p class=" text-2xl"> communiquez collaborez et célebrez des bons moments où que vous soyez avec GOOGLE MEET</p><br>
+</div>
+<div class="flex flex-row gap-3">
+  
+<button class=" bg-[#0077ffb4] rounded h-15 w-64 items-cente  justify-between flex">
+   <a href="http://#" class="text-white flex ">
+   <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#ffffff"><path d="M360-320h80v-120h120v-80H440v-120h-80v120H240v80h120v120ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z"/></svg>
+   Nouvelle réunion </a>
+</button>
 
+<form action="" class="flex gap-2">
+  <div class="flex p-3 border-solid border-2 rounded border-black hover:border-[#0077ffb4]">
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-200q-33 0-56.5-23.5T80-280v-400q0-33 23.5-56.5T160-760h640q33 0 56.5 23.5T880-680v400q0 33-23.5 56.5T800-200H160Zm0-80h640v-400H160v400Zm160-40h320v-80H320v80ZM200-440h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80ZM200-560h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80Zm120 0h80v-80h-80v80ZM160-280v-400 400Z"/></svg>
+  <input type="text" id="text" name="text" placeholder= "saisir un code ou un lien"> 
+ </div>
+ <button>Participer</button>
+</div>
+</form>
+<hr class="h-1 w-full bg-[grey] my-8"><br>
+<div>
+<a href="http://"><span class="text-[#0077ffb4]">EN savoir plus</span> sur google meet</a>
+</div>
         </div>
-        <div class="flex-1 h-full w-full bg-[blue] flex flex-col"></div>
+        <div class="flex-1 h-full w-full flex flex-col items-center justify-center">
+          <div> 
+         <img src="./assets/google-img/rr.svg" alt="">
+          </div>
+           <div class="flex flex-col items-center justify-center">
+            <h1 class="text-4xl text-black"> Obtenir un lien de partge</h1>
+            <p class="text-.xl text-center">Cliquer sur <span class="font-medium text-black">Nouvelle reunion</span> pour obtenir un lien à envoyer aux personnes que vous souhaiter inviter
+              à une reunion
+            </p>
+           </div>
+           <div>
+           <input type="radio">
+           <input type="radio">
+           <input type="radio">
+           </div>
+        </div>
     </section>
+   
   </body>
 </html>
