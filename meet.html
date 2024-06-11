@@ -15,7 +15,7 @@
   <body class="font-[Roboto] text-gray-500 h-[98vh]">
     <nav class="w-full h-12 px-5 flex items-center justify-between my-3">
       <div class="h-full flex flex-row gap-1 items-center ">
-        <img src="./assets/google-img/google-icon.png" alt="Google Icon" />
+        <img src="./assets/google-img/google-icon.png" alt="google-icon" />
         <a  href="#" class="text-2xl font-normal hover:underline hidden md:block">Meet</a>
       </div>
       <div class="h-full flex items-center gap-5 md:gap-10">
@@ -85,10 +85,40 @@
       </div>
     </nav>
     <section class="h-full w-full flex flex-row">
-        <div  class="flex-1 h-full w-full bg-[red] flex flex-col">
-
+        <div  class="flex-1 h-full w-full bg-[] flex flex-col">
+          <div class=" flex justify-center items-center flex-col font-[roboto] ms-10 my-20 gap-5">
+            <h1 class="flex text-5xl text-[#2e2d2d] my-7">Appels vidéo et visioconférences pour tous</h1>
+            <p class="flex text-2xl h-1">Communiquez, collaborez et célébrez les bons moments où que vous soyez avec Google Meet</p>
+          </div>
+          <div class="flex justify-normal items-start flex-row font-[roboto] gap-5 mx-10">
+            <div class="flex bg-[#3c80ec] flex-row justify-between text-[white] my-5 rounded-md " >
+              <a  class="inline-flex items-baseline my-3 p-0.2 gap-0.5 relative href="#">
+             <span><img class="inline-flex items-baseline mx-1" src="assets/google-img/video_call_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="google-icon"></span>
+             <span class="inline-flex justify-center items-center m-1 ml-6">Nouvelle reunion</span></a>
+            </div>
+            <div class="flex bg-[white] my-1 "> 
+              <form action="#">
+                <label for="name"></label><br>
+                <img class="inline-flex items-baseline" src="assets/google-img/keyboard_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="google-icon">
+                 <input class="inline-flex items-baseline"  type="text" max="10" name="name" id="name" required placeholder="saisir un code">
+                 <input type="submit" value="Participer"> 
+              </form>
+            </div>
+          </div>
+           <hr class="flex text-[gray] h-20 w-[40rem] mx-10 my-2">
+          <div class="flex mx-10 my-0.5">
+            <a class="text-[#3c80ec]" href="#">En savoir plus</a>.<p>sur Google Meet</p>
+          </div>
         </div>
-        <div class="flex-1 h-full w-full bg-[blue] flex flex-col"></div>
+        <div class="flex-1 h-full w-full bg-[#ffffffaf] flex flex-col">
+          <div class="flex justify-center items-center flex-col gap-3">
+            <img class="flex justify-center items-center my-12 p-1 w-[250px]" src="assets/google-img/image meet.svg" alt="google-icon">
+            
+            <h1 class="flex text-3xl text-[#363636] ">Obtenir un lien de partage</h1>
+            <p class=" justify-center items-center flex-col text-lg mx-16">Cliques sur <strong class="text-[#3b3939]">Nouvelle reunion</strong> pour Obtenir le lien a envoyer aux personnes que vous souhaitez inviter a une reunion</p>
+          
+          </div>
+        </div>
     </section>
   </body>
 </html>
